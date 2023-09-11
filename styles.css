@@ -1,0 +1,59 @@
+body{
+    background-color: #181a1b ;
+}
+
+*{
+    color: #d1cdc7;
+}
+@media screen and (max-width:990px) {
+    div.card div.container {
+        margin-left: 0px;
+    }
+    /* div.card div.container div.row{
+        margin-left: px;
+    } */
+/* 
+    div.tablere table.table th.coloumn{
+        width: 9%; white-space: nowrap;
+        font-size: 11px;
+    } */
+
+    .text-start{
+        font-size: 13px;
+    }
+    .pricingTable {
+        display: block;
+        text-align: center;
+        background: #181a1b;
+        box-shadow: 0 0 10px red;
+        /* margin-left: 300px; */
+        /* width: 200%; */
+        padding-bottom: 40px;
+        border-radius: 10px;
+        color: wheat;
+        transform: scale(1);
+        transition: all .5s ease 0s;
+        /* padding: 200px; */
+        /* margin: -70px; */
+        border: 0;
+    }
+    div.card{
+        margin-left: 0%;
+        border: 0;
+    }
+
+   div.row{
+    margin-left: -10px;
+    padding: 0%;
+   }
+
+    /* .table{
+        padding: 100%;
+        position: fixed;
+        bottom: 105px; */
+    /* } */
+} 
+
+
+
+
